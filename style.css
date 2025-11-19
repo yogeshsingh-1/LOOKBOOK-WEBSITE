@@ -1,86 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gilroy-Light"
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Light";
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    font-family: "Gilroy-Light"
+  width: 100vw;
+  height: 100vh;
+  font-family: "Gilroy-Light";
 }
 
 .box {
-    width: 100%;
-    height: 100%;
-    display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .left {
-    width: 45%;
-    height: 100%;
-    background-color: #82616de2;
-    position: relative;
+  width: 45%;
+  height: 100%;
+  background-color: #82616de2;
+  position: relative;
+  overflow: hidden;
 }
 
 .left .cimage {
-    width: 40%;
-    height: 50%;
-    background-color: darkgoldenrod;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(https://media.istockphoto.com/id/2203733195/photo/asian-female-photographer-outdoors-in-summer.jpg?s=1024x1024&w=is&k=20&c=rpI7TEpwAw-UYuYzFkJKTuPr-RFc0CRrB_pZUpnpf1E=);
-    z-index: 1;
-    transform: rotate();
+  width: 40%;
+  height: 50%;
+  background-color: darkgoldenrod;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/2203733195/photo/asian-female-photographer-outdoors-in-summer.jpg?s=1024x1024&w=is&k=20&c=rpI7TEpwAw-UYuYzFkJKTuPr-RFc0CRrB_pZUpnpf1E=);
+  z-index: 1;
+  transform: rotate();
+  /* position: relative; */
 }
 
 .cimage .text {
-    width: 100%;
-    height: 50px;
-    background-color: red;
-    position: absolute;
-    bottom: -25%;
+  width: 100%;
+  top: 110%;
+  /* background-color: red; */
+  position: absolute;
+  display: flex;
+}
+.text .parts {
+  width: 30%;
+  /* background-color: red; */
+}
+.text .parts h4 {
+  margin-bottom: 15px;
+  color: white;
+  font-size: 15px;
+}
+.text .para {
+  width: 70%;
+  /* background-color: green; */
 }
 
+.text .para p {
+  line-height: 20px;
+  font-size: 9px;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  color: #fff;
+}
 .left .nav {
-    width: 100%;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    padding: 30px 50px;
-    gap: 60px;
-    color: white;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  gap: 60px;
+  color: white;
 }
 
 .nav h3 {
-    /* color: white; */
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 600;
+  /* color: white; */
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
 .nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 10px;
-    font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 700;
+}
+.side {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  transform-origin: 0% 50%;
+  transform: rotate(-90deg);
+  position: absolute;
+  /* background-color: green; */
+  left: 8%;
+  bottom: -2%;
+}
+.side .line {
+  width: 120px;
+  height: 1.1px;
+  background-color: #fff;
+}
+.side h5 {
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: wheat;
 }
 
 .center {
-    width: 45%;
-    height: 100%;
-    background-color: cadetblue;
+  width: 45%;
+  height: 100%;
+  background-color: cadetblue;
 }
 
 .right {
-    width: 10%;
-    height: 100%;
-    background-color: chartreuse;
+  width: 10%;
+  height: 100%;
+  background-color: chartreuse;
 }
