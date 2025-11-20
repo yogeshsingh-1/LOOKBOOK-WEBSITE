@@ -5,223 +5,239 @@ transform-origin: 0% 50%;
 transform: rotate(-90deg); 
 */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Gilroy-Light";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-Light";
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  font-family: "Gilroy-Light";
+    width: 100vw;
+    height: 100vh;
+    font-family: "Gilroy-Light";
 }
 
 .box {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
 }
+
 .box .maintext {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
+
 .maintext h3 {
-  user-select: none;
-  white-space: nowrap;
-  font-size: 7vw;
-  font-weight: 100;
-  color: rgba(245, 222, 179, 0.808);
-  /* line-height: 0; */
+    user-select: none;
+    white-space: nowrap;
+    font-size: 7vw;
+    font-weight: 100;
+    color: rgba(245, 222, 179, 0.808);
+    /* line-height: 0; */
 }
+
 .maintext h4 {
-  user-select: none;
-  white-space: nowrap;
-  font-size: 3vw;
-  font-weight: 100;
-  color: rgba(245, 222, 179, 0.808);
-  /* color: white; */
+    user-select: none;
+    white-space: nowrap;
+    font-size: 3vw;
+    font-weight: 100;
+    color: rgba(245, 222, 179, 0.808);
+    /* color: white; */
 }
 
 .left {
-  width: 45%;
-  height: 100%;
-  background-color: #82616de2;
-  position: relative;
-  overflow: hidden;
+    width: 45%;
+    height: 100%;
+    background-color: #82616de2;
+    position: relative;
+    overflow: hidden;
 }
 
 .left .cimage {
-  width: 40%;
-  height: 50%;
-  background-color: darkgoldenrod;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(https://media.istockphoto.com/id/2203733195/photo/asian-female-photographer-outdoors-in-summer.jpg?s=1024x1024&w=is&k=20&c=rpI7TEpwAw-UYuYzFkJKTuPr-RFc0CRrB_pZUpnpf1E=);
-  z-index: 1;
-  transform: rotate();
-  /* position: relative; */
+    width: 40%;
+    height: 50%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/2203733195/photo/asian-female-photographer-outdoors-in-summer.jpg?s=1024x1024&w=is&k=20&c=rpI7TEpwAw-UYuYzFkJKTuPr-RFc0CRrB_pZUpnpf1E=);
+    z-index: 1;
+    transform: rotate();
+    /* position: relative; */
 }
 
 .cimage .text {
-  width: 100%;
-  top: 110%;
-  /* background-color: red; */
-  position: absolute;
-  display: flex;
+    width: 100%;
+    top: 110%;
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
 }
+
 .text .parts {
-  width: 30%;
-  /* background-color: red; */
+    width: 40%;
+    /* background-color: red; */
 }
+
 .text .parts h4 {
-  margin-bottom: 15px;
-  color: white;
-  font-size: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 15px;
 }
+
 .text .para {
-  width: 70%;
-  /* background-color: green; */
+    width: 60%;
+    /* background-color: green; */
 }
 
 .text .para p {
-  line-height: 20px;
-  font-size: 9px;
-  font-weight: 300;
-  letter-spacing: 1.1px;
-  color: #fff;
+    line-height: 20px;
+    font-size: 9px;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    color: #fff;
 }
+
 .left .nav {
-  width: 100%;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  padding: 30px 50px;
-  gap: 60px;
-  color: white;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+    gap: 60px;
+    color: white;
 }
 
 .nav h3 {
-  /* color: white; */
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-weight: 600;
+    /* color: white; */
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 10px;
-  font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
 }
+
 .side {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  transform-origin: 0% 50%;
-  transform: rotate(-90deg);
-  position: absolute;
-  /* background-color: green; */
-  left: 8%;
-  bottom: -2%;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    position: absolute;
+    /* background-color: green; */
+    left: 8%;
+    bottom: -2%;
 }
+
 .side .line {
-  width: 120px;
-  height: 1.1px;
-  background-color: #fff;
+    width: 120px;
+    height: 1.1px;
+    background-color: #fff;
 }
+
 .side h5 {
-  font-size: 14px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: wheat;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: wheat;
 }
 
 .center {
-  width: 48%;
-  height: 100%;
-  /* background-color: cadetblue; */
-  background-image: url(https://images.unsplash.com/photo-1551894115-adacea72bea6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+    width: 48%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    background-image: url(https://plus.unsplash.com/premium_photo-1761157945497-cc8b6f885d6e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-image: url(https://images.unsplash.com/photo-1551894115-adacea72bea6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
+
 .center .card {
-  width: 250px;
-  height: 170px;
-  /* background-color: red; */
-  position: absolute;
-  bottom: 5%;
-  right: -10%;
-  display: flex;
-  /* flex-direction: row; */
-  /* transform: translate(0, -50%); */
+    width: 250px;
+    height: 170px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 5%;
+    right: -6%;
+    display: flex;
+    /* flex-direction: row; */
+    /* transform: translate(0, -50%); */
 }
+
 .card .cicon {
-  width: 20%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .cicon i {
-  font-size: 25px;
-  font-weight: 500;
-  opacity: 0.9;
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0.9;
 }
+
 .card .cimg {
-  width: 80%;
-  height: 100%;
-  /* background-color: green; */
-  background-image: url(https://plus.unsplash.com/premium_photo-1661304664583-d421cc8c8477?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+    background-image: url(https://plus.unsplash.com/premium_photo-1661304664583-d421cc8c8477?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .right {
-  width: 7%;
-  height: 100%;
-  /* background-color: chartreuse; */
-  background-color: #82616de2;
+    width: 7%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    background-color: #82616de2;
 }
 
 .right .content {
-  width: 100%;
-  height: 65%;
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-  padding: 10px 0;
+    width: 100%;
+    height: 65%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 0;
 }
 
 .content .link {
-  transform: translateY(-150px) rotate(90deg);
-  display: flex;
-  gap: 15px;
+    transform: translateY(-100px) rotate(90deg);
+    display: flex;
+    gap: 15px;
 }
+
 .content .link a {
-  /* transform: rotate(-90deg); */
-  letter-spacing: 1.2px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
+    /* transform: rotate(-90deg); */
+    letter-spacing: 1.2px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
 }
