@@ -2,6 +2,7 @@
  user-select: none;
 white-space: nowrap;
 transform-origin: 0% 50%;
+transform-origin: left center;
 transform: rotate(-90deg); 
 */
 * {
@@ -136,7 +137,8 @@ body {
     display: flex;
     align-items: center;
     gap: 9px;
-    transform-origin: 0% 50%;
+    /* transform-origin: 0% 50%; */
+    transform-origin: left center;
     transform: rotate(-90deg);
     position: absolute;
     /* background-color: green; */
